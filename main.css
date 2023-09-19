@@ -51,7 +51,35 @@ footer p {
     text-decoration: underline;
     cursor: pointer;
 }
+/*Knapper*/
+button {
+    border: none;
+    border-radius: 50px;
+    background-color: #9a0000;
+    color: #f5f5f5;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #b76060;
+}
+button:active {
+    background-color: #602929;
+}
+button:hover, button:active{
+    cursor: pointer;
+}
 /* Frederikke start*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_div{
+    background-color: #602929;
+    width: 400px;
+    height: 400px;
+}
 /* Frederikke slut*/
 
 
