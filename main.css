@@ -121,6 +121,15 @@ ul {
 .hero_p{
     max-width: 450px;
 }
+
+.mid_sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.mid_sec > div {
+    width: 50%;
+}
 /* Frederikke slut*/
 
 
