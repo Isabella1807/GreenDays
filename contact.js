@@ -30,7 +30,6 @@ const employeeList = [
         number: "+45 27 37 40 40"
     },
 ];
-
 const addEmployeeToDOM = (image_url, title, name, mail, number) => {
     employeeContainer.innerHTML += `
     <div class="imgContainerItems">
@@ -45,7 +44,6 @@ const addEmployeeToDOM = (image_url, title, name, mail, number) => {
     </div>
     `;
 }
-
 for (let i = 0; i < employeeList.length; i++){
     const employee = employeeList[i];
     addEmployeeToDOM(employee.img, employee.titel, employee.navn, employee.mail, employee.number);

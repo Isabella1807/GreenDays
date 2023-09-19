@@ -3,7 +3,9 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
 }
-body > footer, section {
+
+body>footer,
+section {
     padding: 60px;
 }
 
@@ -31,23 +33,28 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
+
 footer p {
     margin: 3px;
 }
+
 .foot_heading {
     font-weight: bold;
     margin-top: 20px;
 }
+
 .foot_right {
     display: flex;
     flex-direction: column;
     text-align: right;
 }
+
 .foot_logo {
     font-weight: bold;
     font-size: 20px;
 }
-.foot_left p:hover  {
+
+.foot_left p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -74,43 +81,49 @@ button:hover,
 button:active {
     cursor: pointer;
 }
+
 /* Nav */
-header{
+header {
     padding: 30px 60px;
     background-color: #98a283;
 }
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     font-weight: bold;
 }
+
 ul {
     list-style-type: none;
     overflow: hidden;
-  }
-  li {
+}
+
+li {
     float: right;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: #121212;
     text-align: center;
     padding-left: 35px;
     text-decoration: none;
-  }
+}
 
-  li a:hover {
+li a:hover {
     text-decoration: underline;
-  }
+}
 
-  .active {
+.active {
     font-weight: bold;
 
-  }
+}
+
 /* Frederikke start*/
 .hero {
     display: flex;
@@ -147,7 +160,7 @@ p {
     background-color: #dcdcdc;
 }
 
-.mid_sec > div {
+.mid_sec>div {
     padding-top: 40px;
     width: 50%;
 }
@@ -212,6 +225,8 @@ p {
 .populaerkoncert {
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 10%;
 
 }
 
@@ -223,26 +238,45 @@ p {
     width: 30%;
 }
 
+/*accordian*/
+.arrangementer-indhold {
+    display: none;
+    overflow: hidden;
+}
+
 
 /* Signe slut*/
 
 /* Isabella start*/
+.contactDivs {
+    padding: 125px;
+}
+
+#topDiv {
+    background-color: #F5F5F5;
+    height: 55vh;
+}
+
+#topDiv p {
+    max-width: 400px;
+}
+
 #contactImgContainer {
     display: grid;
     grid-template-columns: auto auto;
 }
+
 .imgContainerItems {
     display: flex;
 }
+
 .imgContainerItems img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 100%;
 }
-.imgContainerItems p{
-    font-size: 30px;
-}
+
 #contactImgContainer .imgContainerItems:nth-child(even) {
     flex-direction: row-reverse;
     text-align: right;
