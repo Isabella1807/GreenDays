@@ -128,24 +128,4 @@ ul {
 /* Signe slut*/
 
 /* Isabella start*/
-#contactImgContainer {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.imgContainerItems {
-    display: flex;
-}
-
-.imgContainerItems img {
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 100%;
-}
-
-#contactImgContainer .imgContainerItems:nth-child(even) {
-    flex-direction: row-reverse;
-    margin-right: 100px;
-}
 /* Isabella slut*/

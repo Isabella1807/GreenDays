@@ -15,6 +15,20 @@ const employeeList = [
         mail: "j.n.indramning@stofanet.dk",
         number: "+45 22 48 47 57"
     },
+    {
+        img: "img/loge_dame1.jpg",
+        titel: "Næstformand",
+        navn: "Edith Kjengaard",
+        mail: "e.kjengaard@gmail.com",
+        number: "+45 20 85 14 90"
+    },
+    {
+        img: "img/loge_dame1.jpg",
+        titel: "Sekretær",
+        navn: "Kirsten Jørgensen",
+        mail: "bedstekorup@hotmail.com",
+        number: "+45 27 37 40 40"
+    },
 ];
 
 const addEmployeeToDOM = (image_url, title, name, mail, number) => {
