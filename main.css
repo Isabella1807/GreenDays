@@ -178,12 +178,15 @@ p {
 .mid_right {
     padding-left: 20px;
 }
+
 .mid_div button {
     margin-top: 20px;
 }
-.mid_div > div > * {
+
+.mid_div>div>* {
     padding-bottom: 10px;
 }
+
 .citat {
     background-color: #f5f5f5;
 }
@@ -193,6 +196,7 @@ p {
     font-size: 25px;
     font-style: italic;
 }
+
 /* Frederikke slut*/
 
 
@@ -237,6 +241,13 @@ p {
 .paa-slaget-12 {
     width: 30%;
 }
+
+.arrangementer-accordian,
+.tidligere-arrangement-accordian {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
 
 /*accordian*/
 .arrangementer-indhold {
