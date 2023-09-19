@@ -96,4 +96,20 @@ button:hover, button:active{
 /* Signe slut*/
 
 /* Isabella start*/
+#contactImgContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imgContainerItems {
+    display: flex;
+}
+
+.imgContainerItems img {
+    height: 370px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
 /* Isabella slut*/
