@@ -197,6 +197,16 @@ p {
 /* Signe slut*/
 
 /* Isabella start*/
+.contactDivs{
+    padding: 125px;
+}
+#topDiv{
+    background-color: #F5F5F5;
+    height: 55vh;
+}
+#topDiv p{
+    max-width: 400px;
+}
 #contactImgContainer {
     display: grid;
     grid-template-columns: auto auto;
@@ -205,17 +215,13 @@ p {
     display: flex;
 }
 .imgContainerItems img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 100%;
-}
-.imgContainerItems p{
-    font-size: 30px;
 }
 #contactImgContainer .imgContainerItems:nth-child(even) {
     flex-direction: row-reverse;
     text-align: right;
 }
-
 /* Isabella slut*/
