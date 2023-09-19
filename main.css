@@ -106,10 +106,14 @@ button:hover, button:active{
 }
 
 .imgContainerItems img {
-    height: 370px;
-    width: 270px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
+#contactImgContainer .imgContainerItems:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-right: 100px;
+}
 /* Isabella slut*/

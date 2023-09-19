@@ -17,13 +17,14 @@ const employeeList = [
     },
 ];
 
-const addEmployeeToDOM = (name, title, image_url, mail, number) => {
+const addEmployeeToDOM = (image_url, title, name, mail, number) => {
     employeeContainer.innerHTML += `
     <div class="imgContainerItems">
         <img src="${image_url}" alt="Billede af medarbejder ${name}">
+        
         <div class="imgContainerText">
-            <p>${name}</p>
             <p>${title}</p>
+            <p>${name}</p>
             <p>${mail}</p>
             <p>${number}</p>
         </div>
