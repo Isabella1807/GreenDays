@@ -26,27 +26,22 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
-
 footer p {
     margin: 3px;
 }
-
 .foot_heading {
     font-weight: bold;
     margin-top: 20px;
 }
-
 .foot_right {
     display: flex;
     flex-direction: column;
     text-align: right;
 }
-
 .foot_logo {
     font-weight: bold;
     font-size: 20px;
 }
-
 .foot_left p:hover  {
     text-decoration: underline;
     cursor: pointer;
@@ -69,6 +64,43 @@ button:active {
 button:hover, button:active{
     cursor: pointer;
 }
+/* Nav */
+header{
+    padding: 30px 60px;
+    background-color: #98a283;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #121212;
+    text-align: center;
+    padding-left: 35px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  .active {
+    font-weight: bold;
+
+  }
 /* Frederikke start*/
 .hero {
     display: flex;
