@@ -3,7 +3,9 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
 }
-body > footer, section {
+
+body>footer,
+section {
     padding: 60px;
 }
 
@@ -51,12 +53,8 @@ footer p {
     font-weight: bold;
     font-size: 20px;
 }
-<<<<<<< Updated upstream
-.foot_left p:hover  {
-=======
 
 .foot_left p:hover {
->>>>>>> Stashed changes
     text-decoration: underline;
     cursor: pointer;
 }
@@ -83,10 +81,7 @@ button:hover,
 button:active {
     cursor: pointer;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 /* Nav */
 header {
     padding: 30px 60px;
@@ -127,12 +122,8 @@ li a:hover {
 .active {
     font-weight: bold;
 
-<<<<<<< Updated upstream
-  }
-=======
 }
 
->>>>>>> Stashed changes
 /* Frederikke start*/
 .hero {
     display: flex;
@@ -168,13 +159,8 @@ p {
     background-color: #98a283;
 }
 
-<<<<<<< Updated upstream
-.mid_sec > div {
-    padding-top: 40px;
-=======
 .mid_sec>div {
-    width: 50%;
->>>>>>> Stashed changes
+    padding-top: 40px;
 }
 
 /* Frederikke slut*/
@@ -222,20 +208,29 @@ p {
     width: 30%;
 }
 
+/*accordian*/
+.arrangementer-indhold {
+    display: none;
+    overflow: hidden;
+}
+
 
 /* Signe slut*/
 
 /* Isabella start*/
-.contactDivs{
+.contactDivs {
     padding: 125px;
 }
-#topDiv{
+
+#topDiv {
     background-color: #F5F5F5;
     height: 55vh;
 }
-#topDiv p{
+
+#topDiv p {
     max-width: 400px;
 }
+
 #contactImgContainer {
     display: grid;
     grid-template-columns: auto auto;
@@ -251,16 +246,10 @@ p {
     object-fit: cover;
     border-radius: 100%;
 }
-<<<<<<< Updated upstream
-=======
 
-.imgContainerItems p {
-    font-size: 30px;
-}
-
->>>>>>> Stashed changes
 #contactImgContainer .imgContainerItems:nth-child(even) {
     flex-direction: row-reverse;
     text-align: right;
 }
+
 /* Isabella slut*/
