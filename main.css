@@ -73,12 +73,21 @@ button:hover, button:active{
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
+.hero h1, h2, p{
+    margin-bottom: 10px;
+}
+.hero button {
+    margin-top: 10px;
+}
 .hero_div{
     background-color: #602929;
     width: 400px;
     height: 400px;
+}
+.hero_p{
+    max-width: 450px;
 }
 /* Frederikke slut*/
 
