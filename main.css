@@ -3,9 +3,6 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
 }
-body{
-    margin: 125px;
-}
 body > footer, main {
     padding: 60px;
 }
@@ -160,4 +157,5 @@ ul {
     flex-direction: row-reverse;
     text-align: right;
 }
+
 /* Isabella slut*/
