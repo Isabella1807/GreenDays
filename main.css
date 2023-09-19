@@ -262,14 +262,17 @@ p {
 .contactDivs {
     padding: 125px;
 }
-
-#topDiv {
+#topDiv{
     background-color: #F5F5F5;
-    height: 55vh;
+    height: calc(100vh - 250px);
+    padding: 125px;
 }
 
 #topDiv p {
     max-width: 400px;
+}
+#bottomDiv{
+    padding: 0 125px 20px 125px;
 }
 
 #contactImgContainer {
@@ -279,6 +282,7 @@ p {
 
 .imgContainerItems {
     display: flex;
+    margin-top: 100px;
 }
 
 .imgContainerItems img {
@@ -291,6 +295,12 @@ p {
 #contactImgContainer .imgContainerItems:nth-child(even) {
     flex-direction: row-reverse;
     text-align: right;
+}
+.imgContainerText{
+    display: flex;
+    flex-direction: column; /* To avoid display flex putting the text besides eachother */
+    justify-content: center;
+    padding: 0 20px 0 20px;
 }
 
 /* Isabella slut*/
