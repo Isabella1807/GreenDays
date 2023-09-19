@@ -130,10 +130,10 @@ p {
     margin-top: 10px;
 }
 
-.hero_div {
-    background-color: #602929;
-    width: 400px;
+.hero_right img {
+    width: 600px;
     height: 400px;
+    object-fit: none;
 }
 
 .hero_p {
@@ -143,13 +143,43 @@ p {
 .mid_sec {
     display: flex;
     flex-direction: row;
-    background-color: #98a283;
+    justify-content: space-between;
+    background-color: #dcdcdc;
 }
 
 .mid_sec > div {
     padding-top: 40px;
+    width: 50%;
 }
 
+.mid_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid_left {
+    padding-right: 20px;
+}
+
+.mid_right {
+    padding-left: 20px;
+}
+.mid_div button {
+    margin-top: 20px;
+}
+.mid_div > div > * {
+    padding-bottom: 10px;
+}
+.citat {
+    background-color: #f5f5f5;
+}
+
+.citat p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
 /* Frederikke slut*/
 
 
