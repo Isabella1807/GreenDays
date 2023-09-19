@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Helvetica, sans-serif;
 }
+body{
+    margin: 125px;
+}
 body > footer, main {
     padding: 60px;
 }
@@ -141,20 +144,20 @@ ul {
     display: grid;
     grid-template-columns: auto auto;
 }
-
 .imgContainerItems {
     display: flex;
 }
-
 .imgContainerItems img {
     height: 250px;
     width: 250px;
     object-fit: cover;
     border-radius: 100%;
 }
-
+.imgContainerItems p{
+    font-size: 30px;
+}
 #contactImgContainer .imgContainerItems:nth-child(even) {
     flex-direction: row-reverse;
-    margin-right: 100px;
+    text-align: right;
 }
 /* Isabella slut*/
