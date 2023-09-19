@@ -2,14 +2,14 @@ const employeeContainer = document.getElementById("contactImgContainer");
 
 const employeeList = [
     {
-        img: "pic.jpg",
+        img: "img/loge_mand1.jpg",
         titel: "Formand",
         navn: "Claus Stougaard",
         mail: "c_stougaard@hotmail.com",
         number: "+45 93 92 12 66"
     },
     {
-        img: "pic.jpg",
+        img: "img/loge_mand1.jpg",
         titel: "Kasserer",
         navn: "Jørgen Nielsen",
         mail: "j.n.indramning@stofanet.dk",
